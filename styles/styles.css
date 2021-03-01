@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2C6360;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Lobster', sans-serif;
+}
+
+h2 {
+  font-size: 8rem;
+  font-family: 'Lobster', sans-serif;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+.navigation {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+  color: #FFEACC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation li {
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.navigation .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #FFEACC;
+  -webkit-transition: border 200ms ease-out;
+  transition: border 200ms ease-out;
+}
+
+.navigation a:hover {
+  background-color: #FFEACC;
+  color: #2C6360;
+  border: 0.5rem solid #FFEACC;
+  border-radius: 8px;
+}
+
+.navigation .logo {
+  font-family: 'Lobster', sans-serif;
+  font-size: 3rem;
+  color: #2C6360;
+  background-color: #FFEACC;
+  padding: 0.3rem 1.5rem;
+  border-radius: 10px;
+  border-width: 1rem;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 500px 500px;
+      grid-template-columns: 500px 500px 500px;
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+}
+
+.header .title {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.header p {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+/*# sourceMappingURL=styles.css.map */
