@@ -1,0 +1,37 @@
+.footersection{
+    background-color: #2C6360;
+
+
+    .footer{
+      min-height: 5vh;
+      width:80%;
+      margin: auto;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+
+      .logo{
+        font-size: 30px;
+        font-family: 'Lobster', sans-serif;
+        color: #ffeacc;
+        letter-spacing: 1px;
+      }
+
+      .social{
+        min-width: 20rem;
+        font-size: 30px;
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+      a{
+        color:#ffeacc
+      }
+    }
+
+
+}
+
+
