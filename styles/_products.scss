@@ -1,0 +1,68 @@
+.products{
+    background-color:#2C6360;
+ 
+    .models{
+        min-height: 80vh;
+        width: 80%;
+        margin:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    h3{
+        display:flex;
+        justify-content: flex-start;
+        justify-self: flex-start;   
+        font-size: 7rem;
+        margin-left: -2%;
+        margin-top: 10%;
+        color:#FFEACC;
+        animation-name: slidein;
+        animation-duration: 5s;
+    }
+    .cards{
+     margin-top: 5rem;
+     display:flex;
+     justify-content: space-between;
+    
+    .card{
+       background:#FFEACC;
+       margin: 0rem 2rem;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       border-radius: 2rem;
+       overflow: hidden;
+       box-shadow: -10px 10px 5px #22413f;
+       h4{
+           margin: 2rem 0rem;
+       }
+       p{
+           padding: 3rem;
+       }
+       img{
+           object-fit: cover;
+       }
+    }
+    .cardImage{
+        max-width: 300px;
+        min-width: 300px;
+        max-height: 200px;
+        height: auto;
+    }
+}
+}
+@keyframes slidein {
+    0% {
+   
+      width: -50%;
+      opacity: 0%
+    }
+  
+    80% {
+      
+      width: 100%;
+      opacity:100%;
+    }
+  }
