@@ -1,0 +1,44 @@
+.aboutback{
+    background-color: #E6CBC0;
+}
+.aboutsection{
+    
+    min-height: 60vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h3{
+        display:flex;
+        justify-content: flex-start;
+        justify-self: flex-start;   
+        font-size: 7rem;
+        margin-left: -2%;
+        
+    }
+    .innertext{
+        margin-top: 10%;
+        color:#2C6360;
+        
+    }
+}
+
+
+@keyframes slidein {
+    0% {
+   
+      width: -50%;
+      opacity: 0%
+    }
+  
+    80% {
+      
+      width: 100%;
+      opacity:100%;
+    }
+  }
+  
